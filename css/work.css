@@ -1,0 +1,68 @@
+.work-bg {
+    background-color: #3a454d;  
+}
+.works {
+   justify-content: start;
+   flex-wrap: wrap;
+   align-content: stretch;
+}
+.main-title-white {
+  color: white;
+}
+.works {
+    display: flex;
+    width: 360px;
+    height: 265px;
+    align-items: flex-end;
+    margin: 0 auto 30px;
+    position: relative;
+}
+.work-1 {
+    background-image: url(../images/work-1.png);
+}
+.work-2 {
+    background-image: url(../images/work-2.png);
+}
+.work-3 {
+    background-image: url(../images/work-3.png);
+}
+.work-4 {
+    background-image: url(../images/work-4.png);
+}
+.work-5 {
+    background-image: url(../images/work-5.png);
+}
+.work-6 {
+    background-image: url(../images/work-6.png);
+}
+
+.work-title {
+    display: none;
+    height: 60px;
+    width: 100%;
+    background-color: #292f36;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px;
+}
+.works:hover > .work-title {
+    display: block;
+}
+.icon-plus {
+    display: none;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.works:hover > .icon-plus {
+    display: block;
+}
+
+
+
+

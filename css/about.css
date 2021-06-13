@@ -1,0 +1,52 @@
+.about {
+    background: url(../images/bg-main.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 657px;
+}
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 654px;
+    height: 100vh;
+    padding-top: 220px;
+}
+.intro-title {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.intro-text {
+    margin-bottom: 38px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+}
+.button {
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 250px;
+}
+.button-more,
+.button-video {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 13px 23px;
+   line-height: 15px;
+   margin-right: 5px;
+}
+.button-more:hover,
+.button-video:hover {
+    background-color: #23b7a4;
+    border: 2px solid #fff;
+}
