@@ -97,9 +97,5 @@ body {
     .col-xs-hidden {
         display: none;
     }
-    .logo {
-        display: flex;
-        justify-content: center;
-    }
     
 }
