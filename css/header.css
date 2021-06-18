@@ -1,6 +1,8 @@
 .header {
     background-color: #1d2126;
     padding: 25px 0;
+    position: sticky;
+    top: 0;
 }
 .logo {
     align-items: center;
@@ -16,8 +18,7 @@
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     padding: 6px 9px;
-    border: 2px solid transparent;
-    transition: color .3s;
+    border: 2px solid rgba(0, 0, 0, 0);
 }
 .menu a:hover {
     border-color: #a4aead;
@@ -29,9 +30,11 @@
 }
 /* ------- */
 .form-search {
+    display: flex;
     position: relative;
     border: 2px solid #a4aead;
     padding: 3px;
+    flex-grow: 1;
     width: 200px;
 }
 input {

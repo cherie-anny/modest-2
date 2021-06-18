@@ -2,7 +2,7 @@
     background-color: #3a454d;  
 }
 .works {
-   justify-content: start;
+   /* justify-content: start; */
    flex-wrap: wrap;
    align-content: stretch;
 }
@@ -62,7 +62,9 @@
 .works:hover > .icon-plus {
     display: block;
 }
-
+.btn-more-works {
+    margin-bottom: 86px;
+}
 
 
 

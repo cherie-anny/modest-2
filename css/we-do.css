@@ -1,0 +1,42 @@
+.we-do-content {
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+}
+.we-do-img {
+    height: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.we-do-img-1 {
+    background-image: url(../images/img-1.png);
+}
+.we-do-img-2 {
+    background-image: url(../images/img-2.png);
+}
+.we-do-img-3 {
+    background-image: url(../images/img-3.png);
+}
+.we-do-img-4 {
+    background-image: url(../images/img-4.png);
+}
+.we-do-title {
+    text-align: center;
+    font-style: 17px;
+    font-weight: 900;
+    color: #292f36;
+    margin: 20px 0 25px 0;
+    text-transform: uppercase;
+}
+.we-do-desc {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    color:#8d8f92;
+    line-height: 25px;
+}
+
+
+
+
+
