@@ -12,6 +12,11 @@ moreDetailsButtons.forEach(item => {
         modal.classList.remove('hide');
     });
 });
+
+function openModal () {
+    modal.classList.add('show');
+    modal.classList.remove('hide');
+}
 //функція ховає модалку
 function closeModal() {
     modal.classList.remove('show');
@@ -29,5 +34,13 @@ modal.addEventListener('click', function(e) {
     }
 });
 
-
-
+function showModalByScroll () {
+    // console.log(window.pageYOffset);
+    // console.log(document.documentElement.scrollHeight);
+    if(window.pageYOffset > document.documentElement.scrollHeight/2) {
+        openModal();
+        //удаляем, чтобы назад не выплываала модалка
+        window.removeEventListener('scroll', showModalByScroll)
+    }
+}
+window.addEventListener('scroll', showModalByScroll);
