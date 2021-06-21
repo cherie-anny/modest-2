@@ -5,13 +5,14 @@
     align-items: center;
     justify-content: space-between;
     padding: 24px 0;
+    color: #fff;
 }
 .copyright {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 21px;
     font-weight: 300;
-    color: #fff;
+    
 }
 .social-links-tw {
     background-image: url(../images/facebook-ft.png);
