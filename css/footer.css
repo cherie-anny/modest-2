@@ -1,3 +1,37 @@
 .footer {
-    background-color: #3a454d;  
+    background-color: #3a454d;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+.copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #fff;
+}
+.social-links-tw {
+    background-image: url(../images/facebook-ft.png);
+}
+.social-links-fb {
+    background-image: url(../images/twitter-ft.png);
+}
+.social-links-be {
+    background-image: url(../images/skype.png);
+}
+.social-links-be {
+    background-image: url(../images/behance-ft.png);
+}
+.social-links-in {
+    background-image: url(../images/linkedin.png);
+}
+.social-network {
+    display: flex;
+    align-items: center;
+}
+.social-items:not(:last-child) {
+    margin-right: 11px;
 }
